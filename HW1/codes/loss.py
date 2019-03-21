@@ -8,53 +8,68 @@ class EuclideanLoss(object):
         self.name = name
 
     def forward(self, input, target):
-        if input.shape == target.shape:
-            batchSize = input.shape[0]
-            sum = 0
-            for i in range(batchSize):
-                squaredNorm = np.linalg.norm(input[i] - target[i])**2
-                sum += squaredNorm
-            result = sum/2/batchSize
-            return result
+        # Mean of sum of squares of differences between inputs and labels
+        assert(input.shape == target.shape)
+        batchSize = input.shape[0]
+        sum = 0
+        for i in range(batchSize):
+            squaredNorm = np.linalg.norm(input[i] - target[i])**2
+            sum += squaredNorm
+        result = sum/2/batchSize
+        return result
 
     def backward(self, input, target):
-        if input.shape == target.shape:
-            # Derivative of the euclidean loss layer in function of the input (prevision)
-            result = (input-target)/target.shape[1]
-            return result
+        # Derivative of the euclidean loss function in order to its input (which is actually the output of the NN)
+        assert(input.shape == target.shape)
+        batchSize = input.shape[0]
+        result = (input-target)/batchSize
+        assert(result.shape == input.shape)
+        return result
+
 
 class SoftmaxCrossEntropyLoss(object):
     def __init__(self, name):
         self.name = name
 
     def forward(self, input, target):
-        pass
-        """
-        if input.shape == target.shape:
-            result = []
-            for n in range(input.shape[0]):
-                result.append(self.get_en(target[n], input[n]) / input.shape[1])
-            result = np.array(result)
-            return result
-        """
+        assert(input.shape == target.shape)
+        batchSize = input.shape[0]
+        result = []
+        for n in range(batchSize):
+            result.append(self._entropy(target[n], input[n]))
+        return sum(result)/batchSize
 
-    """
 
-    def get_en(self, tn, xn):
+    def _entropy(self, tn, xn):
+        assert(len(tn) == len(xn))
+        outputSize = len(tn)
         result = 0
-        for k in range(len(tn)):
-            result -= tn[k]*log(self.get_h(xn, k))
+        for k in range(outputSize):
+            result -= tn[k]*log(self._softmax(xn, k))
         return result
 
-    def get_h(self, x, k):
+    def _softmax(self, x, k):
         exp_x = []
         for val in x:
             exp_x.append(exp(val))
-
-        return exp_x[k]/sum(exp_x)
-"""
+        result = exp_x[k]/sum(exp_x)
+        return result
 
 
     def backward(self, input, target):
-        '''Your codes here'''
-        pass
+        assert(input.shape == target.shape)
+
+        batchSize = input.shape[0]
+        inputAfterSoftMax = np.empty(input.shape)
+        for n in range(batchSize):
+            for k in range(input.shape[1]):
+                inputAfterSoftMax[n, k] = self._softmax(input[n], k)
+
+        result = np.empty(input.shape)
+        for n in range(batchSize):
+            for k in range(input.shape[1]):
+                result[n, k] = inputAfterSoftMax[n, k] - target[n, k]
+
+        assert(inputAfterSoftMax.shape == input.shape)
+        return result
+

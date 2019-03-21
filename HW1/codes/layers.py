@@ -19,7 +19,6 @@ class Layer(object):
     def _saved_for_backward(self, tensor):
         '''The intermediate results computed during forward stage
         can be saved and reused for backward, for saving computation'''
-
         self._saved_tensor = tensor
 
 
@@ -34,7 +33,7 @@ class Relu(Layer):
         return result
 
     def backward(self, grad_output):
-        result = np.array(grad_output, copy=True)  # just converting dz to a correct object.
+        result = np.array(grad_output, copy=True)
         result[self._saved_tensor <= 0] = 0
         assert(result.shape == self._saved_tensor.shape)
         return result
@@ -45,7 +44,7 @@ class Sigmoid(Layer):
         super(Sigmoid, self).__init__(name)
 
     def forward(self, input):
-        self._saved_for_backward(input)
+        self._saved_for_backward(input)  # fixme - can save the result to minimize calculations in backward
         result = 1/(1+np.exp(-input))
         assert (result.shape == input.shape)
         return result
@@ -97,4 +96,3 @@ class Linear(Layer):
         self.W = self.W - lr * self.diff_W
 
         self.diff_b = mm * self.diff_b + (self.grad_b + wd * self.b)
-   

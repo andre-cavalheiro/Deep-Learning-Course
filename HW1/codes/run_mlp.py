@@ -6,21 +6,22 @@ from solve_net import train_net, test_net
 from load_data import load_mnist_2d
 import matplotlib.pyplot as plt
 
-
+# Pergunta a pôr, é suposto manter o parametros iguais quando comparamos os resultados entre activation/loss functions, ou mudar tudo ao mm tempo?
 
 train_data, test_data, train_label, test_label = load_mnist_2d('data')
 
 # Your model defintion here
 
 # You should explore different model architecture
+# good width values found:  512, 2048
 model = Network()
-model.add(Linear('fc1', 784, 100, 0.01))
-#model.add(Sigmoid('act1'))
-model.add(Relu('act1'))
-model.add(Linear('fc2', 100, 10, 0.01))
+model.add(Linear('fc1', 784, 500, 0.01))
+model.add(Sigmoid('act1'))
+#model.add(Relu('act1'))
+model.add(Linear('fc2', 500, 10, 0.01))
 
-loss = EuclideanLoss(name='loss')
-# loss = SoftmaxCrossEntropyLoss(name='loss')
+# loss = EuclideanLoss(name='loss')
+loss = SoftmaxCrossEntropyLoss(name='loss')
 
 # Training configuration
 # You should adjust these hyperparameters
