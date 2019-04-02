@@ -1,5 +1,6 @@
 from utils import LOG_INFO, onehot_encoding, calculate_acc
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def data_iterator(x, y, batch_size, shuffle=True):
@@ -12,10 +13,11 @@ def data_iterator(x, y, batch_size, shuffle=True):
         yield x[indx[start_idx: end_idx]], y[indx[start_idx: end_idx]]
 
 
-def train_net(model, loss, config, inputs, labels, batch_size, disp_freq):
+def train_net(model, loss, config, inputs, labels, batch_size, disp_freq, drawGraph):
 
     iter_counter = 0
     loss_list = []
+    loss_logs = []
     acc_list = []
 
     for input, label in data_iterator(inputs, labels, batch_size):
@@ -37,12 +39,24 @@ def train_net(model, loss, config, inputs, labels, batch_size, disp_freq):
         loss_list.append(loss_value)
         acc_list.append(acc_value)
 
+
         if iter_counter % disp_freq == 0:
             msg = '  Training iter %d, avg loss %.4f, avg acc %.4f' % (iter_counter, np.mean(loss_list), np.mean(acc_list))
+            loss_logs.append(np.mean(loss_list))
             loss_list = []
             acc_list = []
             LOG_INFO(msg)
 
+    return loss_logs
+    """if drawGraph:
+        fig = plt.figure()
+        #fig.title('Loss values during training for each iteration')
+        plt.plot(list(range(iter_counter)),
+                 loss_full_mean_list)
+        plt.xlabel('Iteration')
+        plt.ylabel('Loss')
+        fig.savefig('loss_train.png')
+    """
 
 def test_net(model, loss, inputs, labels, batch_size):
     loss_list = []

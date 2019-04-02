@@ -31,22 +31,44 @@ class SoftmaxCrossEntropyLoss(object):
     def __init__(self, name):
         self.name = name
 
+
     def forward(self, input, target):
         assert(input.shape == target.shape)
         batchSize = input.shape[0]
         result = []
         for n in range(batchSize):
-            result.append(self._entropy(target[n], input[n]))
+            exp_x = []
+            for val in input[n]:
+                exp_x.append(exp(val))
+            result.append(self._entropy(target[n], input[n], exp_x))
         return sum(result)/batchSize
 
 
-    def _entropy(self, tn, xn):
+    def _entropy(self, tn, xn, exp_xn):
         assert(len(tn) == len(xn))
         outputSize = len(tn)
         result = 0
+        sumExp = sum(exp_xn)
         for k in range(outputSize):
-            result -= tn[k]*log(self._softmax(xn, k))
+            result -= tn[k]*log(exp_xn[k]/sumExp)
         return result
+
+    def backward(self, input, target):
+        assert(input.shape == target.shape)
+
+        batchSize = input.shape[0]
+        numOutputs = input.shape[1]
+
+        inputAfterSoftMax = np.empty(input.shape)
+        result = np.empty(input.shape)
+
+        for n in range(batchSize):
+            for k in range(numOutputs):
+                inputAfterSoftMax[n, k] = self._softmax(input[n], k)
+                result[n, k] = inputAfterSoftMax[n, k] - target[n, k]
+
+        assert(inputAfterSoftMax.shape == input.shape)
+        return result/batchSize
 
     def _softmax(self, x, k):
         exp_x = []
@@ -54,22 +76,3 @@ class SoftmaxCrossEntropyLoss(object):
             exp_x.append(exp(val))
         result = exp_x[k]/sum(exp_x)
         return result
-
-
-    def backward(self, input, target):
-        assert(input.shape == target.shape)
-
-        batchSize = input.shape[0]
-        inputAfterSoftMax = np.empty(input.shape)
-        for n in range(batchSize):
-            for k in range(input.shape[1]):
-                inputAfterSoftMax[n, k] = self._softmax(input[n], k)
-
-        result = np.empty(input.shape)
-        for n in range(batchSize):
-            for k in range(input.shape[1]):
-                result[n, k] = inputAfterSoftMax[n, k] - target[n, k]
-
-        assert(inputAfterSoftMax.shape == input.shape)
-        return result
-

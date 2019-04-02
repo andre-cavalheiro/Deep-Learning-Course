@@ -51,7 +51,7 @@ class Sigmoid(Layer):
 
     def backward(self, grad_output):
         s = 1 / (1 + np.exp(-self._saved_tensor))
-        result = grad_output*s*(1-s)    # Derivative of sigmoid function w.r.t the input
+        result = grad_output*s*(1-s)                    # Derivative of sigmoid function w.r.t the input
         assert(result.shape == self._saved_tensor.shape)
         return result
 
@@ -74,7 +74,7 @@ class Linear(Layer):
         self._saved_for_backward(input)
 
         result = np.dot(input, self.W) + self.b
-        assert (result.shape == (input.shape[0], self.W.shape[1]))
+        assert(result.shape == (input.shape[0], self.W.shape[1]))
 
         return result
 
