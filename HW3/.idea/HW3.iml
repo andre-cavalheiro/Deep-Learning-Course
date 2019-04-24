@@ -4,11 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-  <component name="PyDocumentationSettings">
-    <option name="renderExternalDocumentation" value="true" />
-  </component>
-  <component name="TestRunnerService">
-    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+    <orderEntry type="module" module-name="HW1" />
+    <orderEntry type="module" module-name="text classification" />
+    <orderEntry type="module" module-name="cnn-text-classification" />
+    <orderEntry type="module" module-name="Text-Classification" />
   </component>
 </module>

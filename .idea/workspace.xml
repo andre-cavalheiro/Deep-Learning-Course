@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../natural language/word2vec/helper.py" line="36" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8087dc58-dd1b-4f60-bb8a-421926ea3bd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deep learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/André_Cavalheiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/André_Cavalheiro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/codes/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/codes/layers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/codes/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/codes/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/codes/run_mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/codes/run_mlp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/codes/solve_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/codes/solve_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.Basics-prepare.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +17,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Deep_Learning_Course$run_mlp.coverage" NAME="run_mlp Coverage Results" MODIFIED="1554080130507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1/codes" />
+    <SUITE FILE_PATH="coverage/Deep_Learning_Course$improve.coverage" NAME="improve Coverage Results" MODIFIED="1554726645332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../natural language/word2vec" />
+    <SUITE FILE_PATH="coverage/Deep_Learning_Course$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1554703566097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../natural language/word2vec" />
     <SUITE FILE_PATH="coverage/deep_learning$run_mlp.coverage" NAME="run_mlp Coverage Results" MODIFIED="1553092819584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1/codes" />
     <SUITE FILE_PATH="coverage/Deep_Learning_Course$hw3.coverage" NAME="hw3 Coverage Results" MODIFIED="1553853783506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../webIR/HW3" />
   </component>
@@ -39,58 +39,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../natural language/word2vec/main.py">
+        <entry file="file://$PROJECT_DIR$/../natural language/word2vec/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="48" column="29" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="1020">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
-                <element signature="e#1661#2350#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../natural language/word2vec/helper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="45" column="23" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../natural language/word2vec/model.py">
+        <entry file="file://$PROJECT_DIR$/../natural language/word2vec/src/improve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="98" column="43" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="43" />
+            <state relative-caret-position="153">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../natural language/word2vec/evaluate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../natural language/word2vec/misc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,36 +73,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\</find>
-      <find>print</find>
-      <find>plot</find>
-      <find>s_bingResults</find>
-      <find>l_baiduResults</find>
-      <find>int(</find>
-      <find>ideal</find>
-      <find>self.s1</find>
-      <find>s1</find>
-      <find>getAP</find>
-      <find>getMAP</find>
-      <find>disp_freq</find>
-      <find>drawGraph</find>
-      <find>loss_full_list</find>
-      <find>generate_batch</find>
-      <find>batch_size</find>
-      <find>num_sampled</find>
-      <find>valid_examples</find>
-      <find>wordPairs</find>
-      <find>embedding_size</find>
-      <find>num_steps</find>
-      <find>init</find>
-      <find>train_inputs</find>
-      <find>opti</find>
-      <find>vocabulary_size</find>
-      <find>similarity</find>
-      <find>normalized_embeddings</find>
-      <find>batch</find>
-      <find>sim</find>
       <find>labels</find>
+      <find>data_index</find>
+      <find>332</find>
+      <find>50000</find>
+      <find>valid_</find>
+      <find>valid_size</find>
+      <find>spearmanr</find>
+      <find>simil</find>
+      <find>np</find>
+      <find>np.</find>
+      <find>generate_batch</find>
+      <find>subsample</find>
+      <find>corpusWithId</find>
+      <find>data</find>
+      <find>count</find>
+      <find>dropedWordsId</find>
+      <find>exit</find>
+      <find>log_dir</find>
+      <find>assert</find>
+      <find>writeDictToExel</find>
+      <find>retrofit</find>
+      <find>retrofitedEmbeddings</find>
+      <find>embeddingRank</find>
+      <find>getCorrelation</find>
+      <find>embeddings_file</find>
+      <find>dictionary</find>
+      <find>saveEmbeddingsAndSimilarities</find>
+      <find>.txt</find>
+      <find>readFromExelToPandas</find>
+      <find>final_similarities</find>
     </findStrings>
     <replaceStrings>
       <replace>getAveragePrecision</replace>
@@ -150,6 +116,8 @@
       <replace>config['embedding_size']</replace>
       <replace>config['vocabulary_size']</replace>
       <replace>config['num_steps']</replace>
+      <replace>validation_</replace>
+      <replace>wordIDsToDrop</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -166,10 +134,15 @@
         <option value="$PROJECT_DIR$/HW1/codes/solve_net.py" />
         <option value="$PROJECT_DIR$/HW1/codes/loss.py" />
         <option value="$PROJECT_DIR$/HW1/codes/run_mlp.py" />
-        <option value="$PROJECT_DIR$/../natural language/word2vec/helper.py" />
-        <option value="$PROJECT_DIR$/../natural language/word2vec/evaluate.py" />
-        <option value="$PROJECT_DIR$/../natural language/word2vec/main.py" />
+        <option value="$PROJECT_DIR$/../natural language/word2vec/extract_vocab.py" />
+        <option value="$PROJECT_DIR$/../natural language/word2vec/wordSense.py" />
         <option value="$PROJECT_DIR$/../natural language/word2vec/model.py" />
+        <option value="$PROJECT_DIR$/../natural language/word2vec/evaluate.py" />
+        <option value="$PROJECT_DIR$/../natural language/word2vec/helper.py" />
+        <option value="$PROJECT_DIR$/../natural language/word2vec/main.py" />
+        <option value="$PROJECT_DIR$/../natural language/word2vec/improve.py" />
+        <option value="$PROJECT_DIR$/../natural language/word2vec/src/main.py" />
+        <option value="$PROJECT_DIR$/../natural language/word2vec/src/improve.py" />
       </list>
     </option>
   </component>
@@ -185,31 +158,24 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Deep-Learning-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="word2vec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deep-Learning-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../natural language/word2vec/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Projetos\ist\natural language\word2vec\data_improve" />
+      <recent name="D:\Documents\Projetos\ist\natural language\word2vec" />
+      <recent name="D:\Documents\Projetos\ist\natural language\word2vec\output\text8_100" />
       <recent name="D:\Documents\Projetos\ist\natural language\word2vec\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Projetos\ist\natural language\word2vec\data_improve" />
+      <recent name="D:\Documents\Projetos\ist\natural language\word2vec\data" />
+      <recent name="D:\Documents\Projetos\ist\natural language\word2vec\retrofitting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,7 +190,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.word2vec">
+  <component name="RunManager" selected="Python.improve">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="deep learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,6 +281,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="improve" type="PythonConfigurationType" factoryName="Python">
+      <module name="deep learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\André Cavalheiro\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../natural language/word2vec" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../natural language/word2vec/improve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_mlp" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="deep learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,30 +325,114 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="word2vec" type="PythonConfigurationType" factoryName="Python">
-      <module name="deep learning" />
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="word2vec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\André Cavalheiro\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../natural language/word2vec" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../natural language/word2vec/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="word2vec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.word2vec" />
+      <item itemvalue="Python.improve" />
       <item itemvalue="Python.run_mlp" />
       <item itemvalue="Python.hw3" />
     </list>
@@ -346,11 +464,25 @@
       <workItem from="1553674841417" duration="21074000" />
       <workItem from="1553853560960" duration="17356000" />
       <workItem from="1553952814956" duration="39649000" />
+      <workItem from="1554185385905" duration="6732000" />
+      <workItem from="1554192311041" duration="8792000" />
+      <workItem from="1554221070518" duration="29125000" />
+      <workItem from="1554425068278" duration="11219000" />
+      <workItem from="1554545365796" duration="30796000" />
+      <workItem from="1554779773658" duration="111000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished">
+      <created>1554185617084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554185617084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180597000" />
+    <option name="totallyTimeSpent" value="267372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,13 +496,13 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22348177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23562753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37477797" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959514" weight="0.36944938" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959514" weight="0.44760212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
@@ -379,7 +511,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.39964476" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -415,6 +547,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -434,9 +570,19 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HW1/codes/run_mlp.py</url>
-          <line>92</line>
+          <url>file://$PROJECT_DIR$/../natural language/word2vec/model.py</url>
+          <line>33</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../natural language/word2vec/improve.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../natural language/word2vec/improve.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -500,23 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/word2vec.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/codes/run_mlp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -558,50 +687,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/IPython/core/interactiveshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3290" selection-start-line="3290" selection-end-line="3290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/kernel.ipynb" />
+    <entry file="file://$PROJECT_DIR$/HW1/codes/run_mlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/extract_vocab.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/retrofitting/lexicons/ppdb-xl.txt" />
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/retrofitting/lexicons/wordnet-synonyms+.txt" />
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/word2vec.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../natural language/word2vec/misc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/evaluate.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/nltk/metrics/spearman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="179">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/helper.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/types.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/kernel.py" />
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/retrofitting/retrofit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/retrofitting/out_vec.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/out_vec.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/data_improve/combined.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../natural language/word2vec/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="64">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#1661#2350#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/improve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/retrofit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/retrofitting/embeddings.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../natural language/word2vec/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="98" column="43" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="43" />
+        <state relative-caret-position="1173">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="36" column="120" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="120" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../natural language/word2vec/src/improve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

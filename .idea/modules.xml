@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/deep learning.iml" filepath="$PROJECT_DIR$/.idea/deep learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../natural language/word2vec/.idea/word2vec.iml" filepath="$PROJECT_DIR$/../natural language/word2vec/.idea/word2vec.iml" />
     </modules>
   </component>
 </project>
